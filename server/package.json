@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Static server for a micro frontends demo",
+  "author": "lzhengms@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "serve --port 5000"
+  },
+  "devDependencies": {
+    "serve": "^6.5.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
